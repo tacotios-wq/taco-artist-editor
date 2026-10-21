@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fuentes": {
+    "motor_subtitulos": "9ca68704c02f3c9d6478c8dd9bd18c3895a1d017bd10539ee03c9d9c3864e7b3",
+    "doctrina_subtitulos": "687b6c72098eff63aa94899b65c17c4f1a1e97d3173b40006807b822864a8e8c",
+    "montaje_automatico": "1291c5ee120e5b0a79237ccbb65b8ea035db89fd370c5c3320c25199c6a1ff15",
+    "matriz_montaje": "cc0c1a72af5e55bb93b40244e8cd671dc370e746541c8cc83fcc768dc7a79568",
+    "metodo_editor_master": "7680109776314e6d9898cb22916e77b583ec1aaa96d3bd95a3497f189e8967dc",
+    "manual_editor": "bd92f28f33c256b9cffcc5dc8e61acf7c2d96e921cf22e6d97afaa267314f031",
+    "pipeline_avances": "c492a1a285b9e70cdbcb3852b2f58263cf2b1fb970bb8b760bf494ba22314315",
+    "leyes_avances": "3dd71ca1f964ad8dec6601dcd8545d48108e198e866e7cba80526dade692970c",
+    "referentes_publicos": "cc0baa3eaa3abc52730b5553a5ab345d8b6f854542312b47ba3c5813f5c7c73b",
+    "broll_generico": "503e21ab4755e3d5171280d2c36be7a5895f816f323525520ebad881f1061e19",
+    "skills_edicion": "b2808f44347ff913ebd8575e6d2c79f4ef588bced8ecaa9883b5b926556f34b0"
+  }
+}

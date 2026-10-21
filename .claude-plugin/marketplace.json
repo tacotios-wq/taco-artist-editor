@@ -1,0 +1,22 @@
+{
+  "name": "taco-artist-editor",
+  "owner": {
+    "name": "Aniol Guell"
+  },
+  "metadata": {
+    "description": "Marketplace del editor público de Taco Artist.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "taco-artist-editor",
+      "source": "./",
+      "description": "Cinco flujos de edición asistida con controles de privacidad y calidad.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Aniol Guell"
+      }
+    }
+  ]
+}
+

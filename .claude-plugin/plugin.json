@@ -1,0 +1,10 @@
+{
+  "name": "taco-artist-editor",
+  "version": "0.1.0",
+  "description": "Flujo público de edición: transcripción bilingüe, escaleta y montaje, subtítulos con QA, revisión de corte y análisis de referentes.",
+  "author": {
+    "name": "Aniol Guell",
+    "url": "https://github.com/tacotios"
+  }
+}
+

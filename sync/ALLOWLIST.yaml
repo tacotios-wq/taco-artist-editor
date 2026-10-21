@@ -1,0 +1,118 @@
+{
+  "version": 1,
+  "politica": "ALLOWLIST",
+  "fuentes": [
+    {
+      "id": "motor_subtitulos",
+      "origen": "~/Desktop/01_PROYECTOS/SUBTITULADO-PRO/02_MOTOR/{motor.py,preset_tacotios.json,qa_subtitulos.py}",
+      "destino": "bin/motor.py; bin/qa_subtitulos.py; sync/preset_subtitulos.json",
+      "forma": "CODIGO",
+      "actualizacion": "COMPARAR_Y_REVISAR",
+      "motivo": "Portar el motor y su puerta de QA sin rutas personales ni recursos binarios."
+    },
+    {
+      "id": "doctrina_subtitulos",
+      "origen": "~/Desktop/01_PROYECTOS/SUBTITULADO-PRO/EDITOR_MADRE.md",
+      "destino": "conocimiento/subtitulado.md",
+      "forma": "DESTILADO",
+      "actualizacion": "COMPARAR_Y_REVISAR",
+      "motivo": "Conservar reglas operativas de ritmo, composición y validación sin copiar memoria interna."
+    },
+    {
+      "id": "montaje_automatico",
+      "origen": "~/Desktop/01_PROYECTOS/EDITA-REEL-AUTOLOOP/{README.md,montaje_to_resolve.py,davinci,remotion-kit,color}",
+      "destino": "bin/montar.py; conocimiento/montaje.md",
+      "forma": "CODIGO",
+      "actualizacion": "COMPARAR_Y_REVISAR",
+      "motivo": "Reutilizar montaje y puentes genéricos sin incluir piezas ni estados de trabajo."
+    },
+    {
+      "id": "matriz_montaje",
+      "origen": "~/Desktop/01_PROYECTOS/EDITA-REEL-AUTOLOOP/MATRIX_EDICION_TACOTIOS.md",
+      "destino": "conocimiento/montaje.md",
+      "forma": "DESTILADO",
+      "actualizacion": "COMPARAR_Y_REVISAR",
+      "motivo": "Extraer criterios generales; la doctrina de otras series no se publica."
+    },
+    {
+      "id": "metodo_editor_master",
+      "origen": "~/Desktop/01_PROYECTOS/EDITA-REEL-AUTOLOOP/EDITOR_MASTER/{KERNEL_AUTOPILOTO.md,HANDOFF.md}",
+      "destino": "conocimiento/formato.md",
+      "forma": "DESTILADO",
+      "actualizacion": "COMPARAR_Y_REVISAR",
+      "motivo": "Conservar el método repetible y excluir el estado de ciclos anteriores."
+    },
+    {
+      "id": "manual_editor",
+      "origen": "~/Desktop/01_PROYECTOS/PIPELINE-EDICION-AI/01_MANUALES/MANUAL_EDITOR_*_v3.md",
+      "destino": "conocimiento/montaje.md",
+      "forma": "DESTILADO",
+      "actualizacion": "COMPARAR_Y_REVISAR",
+      "motivo": "Destilar oficio de edición aplicable a material nuevo."
+    },
+    {
+      "id": "guias_formato_privado",
+      "origen": "~/Code/taco-artist/formato_youtube/{GUIA_EDICION_TACO_ARTIST_v1.md,LISTA_DE_CORTES.md,ESTRUCTURA_EPISODIO_v1.md}",
+      "destino": "config:rutas.canon_privado",
+      "forma": "FUERA",
+      "actualizacion": "LECTURA_EN_EJECUCION",
+      "motivo": "El repositorio público lee el canon local cuando existe; no lo copia."
+    },
+    {
+      "id": "sistema_sonoro_privado",
+      "origen": "~/Code/taco-artist/MUSICA/BIBLIA_SONORA_TACO_ARTIST_v0.md",
+      "destino": "config:rutas.canon_privado",
+      "forma": "FUERA",
+      "actualizacion": "LECTURA_EN_EJECUCION",
+      "motivo": "Las decisiones sonoras específicas permanecen privadas."
+    },
+    {
+      "id": "biblia_formato_privado",
+      "origen": "~/Code/taco-artist/BIBLIA_TACO_ARTIST_v1.md",
+      "destino": "config:rutas.canon_privado",
+      "forma": "FUERA",
+      "actualizacion": "LECTURA_EN_EJECUCION",
+      "motivo": "Solo se consulta en ejecución y nunca se replica en el plugin."
+    },
+    {
+      "id": "pipeline_avances",
+      "origen": "~/Code/taco-artist/*/TEASER/_scripts/{transcribir.py,fino.py,buscar.py,montar.py,gen_encuesta_teaser_v2.py}",
+      "destino": "bin/transcribir.py; bin/fino.py; bin/buscar.py; bin/montar.py; conocimiento/teaser.md",
+      "forma": "CODIGO",
+      "actualizacion": "COMPARAR_Y_REVISAR",
+      "motivo": "Portar algoritmos genéricos con entradas JSON inventadas; nunca datos de un episodio."
+    },
+    {
+      "id": "leyes_avances",
+      "origen": "~/Code/taco-artist/*/TEASER/02_LEYES_TEASER.md",
+      "destino": "conocimiento/teaser.md",
+      "forma": "DESTILADO",
+      "actualizacion": "COMPARAR_Y_REVISAR",
+      "motivo": "Conservar variables narrativas generales sin ejemplos de producción."
+    },
+    {
+      "id": "referentes_publicos",
+      "origen": "~/Code/taco-artist/{esfera-referentes,_MATRIX_TRANSCRIPCIONES/referentes,METODO_ENTREVISTA_HOT_ONES/04_REFERENTES}",
+      "destino": "conocimiento/referentes; .cache/referencias",
+      "forma": "DESTILADO",
+      "actualizacion": "PROCESAR_COLA",
+      "motivo": "Versionar análisis y citas breves; conservar transcripciones completas solo en caché."
+    },
+    {
+      "id": "broll_generico",
+      "origen": "~/Movies/BANCO_BROLL/_bin/broll.py",
+      "destino": "bin/broll.py",
+      "forma": "CODIGO",
+      "actualizacion": "COMPARAR_Y_REVISAR",
+      "motivo": "Portar únicamente la indexación por ejes; los clips quedan fuera."
+    },
+    {
+      "id": "skills_edicion",
+      "origen": "~/.claude/skills/{edita-reel,montaje,montaje-qa,instrucciones-edicion,video-editing,trailer-council,referentes,autoentreno}",
+      "destino": "skills",
+      "forma": "DESTILADO",
+      "actualizacion": "COMPARAR_Y_REVISAR",
+      "motivo": "Adaptar instrucciones de oficio sin memoria, rutas o nombres privados."
+    }
+  ]
+}

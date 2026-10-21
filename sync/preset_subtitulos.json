@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "frame": {
+    "ancho": 1080,
+    "alto": 1920
+  },
+  "chunking": {
+    "palabras_max": 5,
+    "palabras_hook_max": 8,
+    "lineas_max": 2,
+    "pausa_umbral_s": 0.3,
+    "hold_s": 0.12,
+    "no_terminar_en": [
+      "de", "del", "la", "el", "los", "las", "un", "una", "y", "o", "que",
+      "en", "a", "al", "con", "por", "para", "sin", "mi", "tu", "su", "pero",
+      "si", "porque", "como"
+    ]
+  },
+  "estilo": {
+    "fuente": "Helvetica",
+    "tamano": 72,
+    "tamano_hook": 88,
+    "negrita": true,
+    "color_ass": "&H00FFFFFF",
+    "contorno_color_ass": "&H64000000",
+    "contorno": 2.0,
+    "sombra": 2.0,
+    "alineacion": 5,
+    "margen_izquierdo": 72,
+    "margen_derecho": 150,
+    "margen_vertical": 110
+  },
+  "seguridad": {
+    "requiere_revision_visual": true,
+    "proteger_caras": true,
+    "proteger_interfaz": true,
+    "densidad_texto_max": 0.6
+  }
+}
+

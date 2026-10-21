@@ -1,0 +1,18 @@
+{
+  "rutas": {
+    "canon_privado": "",
+    "detector_fugas": "",
+    "detector_externo": "",
+    "filtro_publico": ""
+  },
+  "herramientas": {
+    "ffmpeg": "ffmpeg",
+    "ffprobe": "ffprobe",
+    "whisper_modelo": "large-v3-turbo",
+    "yt_dlp": "yt-dlp"
+  },
+  "sync": {
+    "zona_horaria": "America/Mexico_City"
+  }
+}
+
