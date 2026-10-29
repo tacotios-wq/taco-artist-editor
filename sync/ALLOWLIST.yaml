@@ -113,6 +113,22 @@
       "forma": "DESTILADO",
       "actualizacion": "COMPARAR_Y_REVISAR",
       "motivo": "Adaptar instrucciones de oficio sin memoria, rutas o nombres privados."
+    },
+    {
+      "id": "openfilm",
+      "origen": "~/Code/_cache/openfilm/packages/openfilm/studio/{server,ui/src/lib}",
+      "destino": "bin/nle_export.py; bin/vtt.py; tests/test_nle_export.py; tests/test_vtt.py; THIRD_PARTY_NOTICES.md",
+      "forma": "CODIGO",
+      "actualizacion": "FIJADO_COMMIT_DE5A98B",
+      "motivo": "Portar exportadores NLE, marcadores y WebVTT en Python stdlib desde el clon MIT fijado."
+    },
+    {
+      "id": "openfilm_destilado",
+      "origen": "~/Code/_cache/openfilm/packages/openfilm/skills",
+      "destino": "conocimiento/openfilm.md",
+      "forma": "DESTILADO",
+      "actualizacion": "FIJADO_COMMIT_DE5A98B",
+      "motivo": "Conservar inventario, criterios útiles y límites sin portar la UI, el servidor ni proveedores."
     }
   ]
 }
